@@ -1,7 +1,18 @@
 # These will be the test cases.
 
-# Scenario 1: When only the magic number is specified.
-1, 10, 5
-10, 100, 12
+# 1st Number = Bottom of Range
+# 2nd Number = Top of Range
+# 3rd Number = Secret Number
+
+# Edge Case 1: Magic Number is Equal To Top of Range
+0, 10, 10
+0, 10000000, 10000000
+
+# Edge Case 2: Magic Number is Equal to Bottom of Range
+10, 100, 10
+0, 1000, 0
+101, 1010101010101, 101
+
+# Normal Cases
 1, 1000000, 54644
 576, 1257, 998
